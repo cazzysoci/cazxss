@@ -6,7 +6,7 @@ def scan_xss(url):
     response = requests.get(url)
     xss_vulnerable = False
     if os.name == 'nt':  
-        file_path = 'C:\\Users\\LSCK\\payloads.txt'
+        file_path = 'C:\\ \\ \\payloads.txt'
     else:  # Linux
         file_path = 'payloads.txt'
     
